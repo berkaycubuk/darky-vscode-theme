@@ -2,6 +2,7 @@
   "name": "darky",
   "displayName": "Darky",
   "description": "Something experimental",
+  "publisher": "berkaycubuk",
   "author": {
     "name": "Berkay Çubuk",
     "email": "hey@berkaycubuk.com",
@@ -22,7 +23,7 @@
     "color": "#5e0000",
     "theme": "dark"
   },
-  "icon": "images/icon/logo_500x500.png",
+  "icon": "images/logo_500x500.png",
   "categories": [
     "Themes"
   ],
