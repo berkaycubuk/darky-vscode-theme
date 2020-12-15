@@ -1,21 +1,45 @@
 {
-    "name": "darky",
-    "displayName": "darky",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "darky",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darky-color-theme.json"
-            }
-        ]
-    }
+  "name": "darky",
+  "displayName": "Darky",
+  "description": "Something experimental",
+  "author": {
+    "name": "Berkay Çubuk",
+    "email": "hey@berkaycubuk.com",
+    "url": "https://berkaycubuk.com"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkaycubuk/darky-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/berkaycubuk/darky-vscode-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#5e0000",
+    "theme": "dark"
+  },
+  "icon": "images/icon/logo_500x500.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Darky Theme",
+    "Dark Theme",
+    "Black",
+    "Red",
+    "Eye"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darky",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darky-color-theme.json"
+      }
+    ]
+  }
 }
