@@ -1,9 +1,16 @@
 # Change Log
 
-All notable changes to the "darky" extension will be documented in this file.
+## v0.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+16/12/2020
 
-## [Unreleased]
+- Change log updated
+- Readme updated
+- Icon updated
+- Json property name color changed
 
-- Initial release
+## v0.0.1
+
+15/12/2020
+
+- Initial release 🚀
