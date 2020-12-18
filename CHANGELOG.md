@@ -1,5 +1,12 @@
 # Change Log
 
+## v0.0.3
+
+18/12/2020
+
+- HTML & CSS colors fixed
+- Js and Jsx colors fixed
+
 ## v0.0.2
 
 16/12/2020

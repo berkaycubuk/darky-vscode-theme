@@ -81,9 +81,9 @@
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
+        /* "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.end.html", */
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
@@ -97,10 +97,22 @@
       "scope": [
         "entity.name.tag",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "support.class.component.js"
       ],
       "settings": {
-        "foreground": "#c04747"
+        "foreground": "#ff5151"
+      }
+    },
+    {
+      "name": "HTML Class",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "meta.attribute.class.html",
+        "entity.other.attribute-name.js"
+      ],
+      "settings": {
+        "foreground": "#ff8f8f"
       }
     },
     {
@@ -121,6 +133,20 @@
       "scope": ["meta.block variable.other"],
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "",
+      "scope": ["string.quoted.double.html"],
+      "settings": {
+        "foreground": "#ffdfdf"
+      }
+    },
+    {
+      "name": "",
+      "scope": ["string.quoted.single.php"],
+      "settings": {
+        "foreground": "#ffdfdf"
       }
     },
     {
@@ -182,6 +208,59 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "CSS 1",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#ee3636"
+      }
+    },
+    {
+      "name": "CSS 2",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#fd6969"
+      }
+    },
+    {
+      "name": "CSS 3",
+      "scope": [
+        "punctuation.definition.constant.css",
+        "keyword.other.unit.percentage.css",
+        "constant.other.color.rgb-value.hex.css",
+        "keyword.other.unit.s.css",
+        "support.constant.property-value.css",
+        "support.constant.property-value.css",
+        "constant.numeric.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.important.css"
+      ],
+      "settings": {
+        "foreground": "#ffd2d2"
+      }
+    },
+    {
+      "name": "CSS Punctuation",
+      "scope": [
+        "punctuation.section.property-list.begin.bracket.curly.scss",
+        "punctuation.section.property-list.end.bracket.curly.scss",
+        "punctuation.definition.string.end.css",
+        "punctuation.definition.string.begin.css",
+        "punctuation.separator.key-value.scss",
+        "punctuation.terminator.rule.scss",
+        "punctuation.definition.entity.css",
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.list.comma.css",
+        "constant.character.escape.codepoint.css",
+        "string.quoted.double.css"
+      ],
+      "settings": {
+        "foreground": "#A8A8A8"
       }
     },
     {
@@ -562,6 +641,46 @@
       }
     },
     {
+      "name": "Entity Attribute Name Pseudo Class Css",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#c23232"
+      }
+    },
+    {
+      "name": "Blade Template",
+      "scope": [
+        "support.function.construct.begin.blade",
+        "support.function.construct.end.blade"
+      ],
+      "settings": {
+        "foreground": "#d41111",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Punctuation Css HTML",
+      "scope": [
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.terminator.rule.css",
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
+      ],
+      "settings": {
+        "foreground": "#A8A8A8",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Markdown - Separator",
       "scope": ["meta.separator"],
       "settings": {
@@ -574,6 +693,84 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "PHP 1",
+      "scope": [
+        "punctuation.definition.string.begin.php",
+        "punctuation.definition.string.end.php",
+        "entity.name.function.php"
+      ],
+      "settings": {
+        "foreground": "#9b5b5b"
+      }
+    },
+    {
+      "name": "PHP 2",
+      "scope": [
+        "punctuation.definition.variable.php",
+        "punctuation.section.array.begin.php",
+        "punctuation.section.array.end.php",
+        "punctuation.definition.arguments.begin.bracket.round.php",
+        "punctuation.definition.arguments.end.bracket.round.php"
+      ],
+      "settings": {
+        "foreground": "#e63535"
+      }
+    },
+    {
+      "name": "JS 1",
+      "scope": [
+        "keyword.control.import.js",
+        "keyword.control.from.js",
+        "keyword.control.export.js",
+        "keyword.control.conditional.js"
+      ],
+      "settings": {
+        "foreground": "#d41111"
+      }
+    },
+    {
+      "name": "JS 2",
+      "scope": [
+        "meta.jsx.children.js",
+        "constant.character.entity.js",
+        "punctuation.definition.entity.js"
+      ],
+      "settings": {
+        "foreground": "#ffdfdf"
+      }
+    },
+    {
+      "name": "JS 3",
+      "scope": [
+        "string.quoted.double.js",
+        "variable.other.readwrite.alias.js",
+        "entity.name.function.js",
+        "keyword.control.default.js",
+        "keyword.control.flow.js",
+        "string.template.js"
+      ],
+      "settings": {
+        "foreground": "#ffd2d2"
+      }
+    },
+    {
+      "name": "JS Punctuation",
+      "scope": [
+        "punctuation.terminator.statement.js",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js",
+        "meta.brace.round.js",
+        "punctuation.definition.parameters.end.js",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.block.js",
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.begin.js"
+      ],
+      "settings": {
+        "foreground": "#A8A8A8"
       }
     }
   ]
